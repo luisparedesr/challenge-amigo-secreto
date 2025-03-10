@@ -36,14 +36,6 @@ function sortearAmigo (){
    resultado.innerHTML = `el amigo sorteado es: ${amigoSorteado}`;
 }
 
-//function listaNombres (){
-   //let lista = document.getElementById('prueba').innerHTML=(nombres);
-//}
-
-//listaNombres (nombres);
-
-
-
 function agregarTexto (elemento, texto){
     let elementoHTML = document.querySelector(elemento)
     elemento.elementoHTML=texto;

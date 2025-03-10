@@ -28,7 +28,7 @@ for(let i = 0; i < nombres.length; i++) {
 
 function sortearAmigo (){
    if (nombres.length < 2){
-      alert('no hay amigos para sortear');
+      alert('no hay suficientes amigos para sortear');
       return
    }
    let amigoSorteado = nombres[Math.floor(Math.random()*nombres.length)];
